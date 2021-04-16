@@ -1,5 +1,3 @@
-# CA Antivaccinators
+# Abandoned Mines in Colorado
 
-Master's project template forthcoming. 
-freedom angels
-
+Laurine Lassalle.

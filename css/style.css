@@ -12,10 +12,15 @@ body{
   color: #eee;
   font-size:1.1rem;
   background-image: url('../assets/background_rock_shade.jpg');
+  background-position: center -200px;
   background-size: 100% auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Special Elite", Georgia, "Times New Roman", Times, serif;
+}
+
+.h2,.h3,.h4{
   font-family: "Special Elite", Georgia, "Times New Roman", Times, serif;
 }
 

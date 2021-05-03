@@ -1,3 +1,16 @@
+/* special-elite-regular - latin */
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/special-elite-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/special-elite-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/special-elite-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/special-elite-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/special-elite-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/special-elite-v11-latin-regular.svg#SpecialElite') format('svg'); /* Legacy iOS */
+}
 @font-face {
 	font-family: 'Lato';
 	font-style: normal;

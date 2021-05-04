@@ -287,6 +287,7 @@
         <div class="col-12 col-sm-5">
           <video width="100%" height="500" controls preload class="player" poster="assets/reinette_senum_trimmed_video.jpg">
             <source src="assets/reinette_senum_trimmed_video.mp4" type="video/mp4">
+            <track default src="assets/reinette_senum_trimmed_video.srt" kind="subtitles" srclang="en" />
           </video>
           <small>Senum spoke at the Freedom Angels "United We Stand" Sacramento protest last July.</small>
         </div>
@@ -692,6 +693,7 @@
           <div class="ratio ratio-16x9">
             <video class="player" poster="assets/sad-hugs-guy/sad-hugs-guy.jpg" width="100%" height="100%" controls preload>
               <source src="assets/sad-hugs-guy/playlist.m3u8" type="application/x-mpegURL">
+              <track default kind="subtitles" srclang="en" src="assets/sad-hugs-guy/sad-hugs-guy.srt" />
             </video>
           </div>
         </div>
@@ -793,6 +795,7 @@
           renderers: ['native_hls', 'html5'],
           pluginPath: 'js/mediaelement/',
           shimScriptAccess: 'always',
+          startLanguage: 'en',
           success: function(media, node, instance) {
               if (Hls !== undefined) {
                   media.addEventListener(Hls.Events.MEDIA_ATTACHED, function () {
